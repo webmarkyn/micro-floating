@@ -5,13 +5,12 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .body {
-  background-color: white
+  background-color: white;
 }
-
 
 /* Header Styles */
 
@@ -73,8 +72,6 @@ header .nav-bar {
   margin-top: 10px;
 }
 
-
-
 header .header-buttons {
   float: right;
 }
@@ -87,7 +84,7 @@ header a {
   font-weight: bold;
 }
 
-header>img {
+header > img {
   position: absolute;
   width: 200px;
   display: block;
@@ -110,7 +107,6 @@ header button {
   margin-left: 3px;
 }
 
-
 /* Article Styles */
 
 article {
@@ -127,8 +123,6 @@ article figure {
   margin-bottom: 40px;
 }
 
-
-
 article figure figcaption {
   color: gray;
   font-size: 15px;
@@ -137,7 +131,6 @@ article figure figcaption {
 article figure small {
   color: darkgray;
 }
-
 
 /* Main-container Styles */
 
@@ -163,7 +156,6 @@ aside {
   margin-bottom: 550px;
 }
 
-
 /* Main Article Styles */
 
 .main-article {
@@ -178,14 +170,41 @@ aside {
   margin-bottom: 10px;
 }
 
+aside h2 a {
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.editors-pick-sidebar a {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+
+.main-article a {
+  color: #326891;
+}
+
 footer a:hover {
   text-decoration: underline;
+}
+
+.most-popular ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 footer a {
   font-size: 13px;
   text-decoration: none;
   color: gray;
+}
+
+.main-article small a {
+  color: gray;
+  text-decoration: none;
 }
 
 .news-categories nav ul li a {
@@ -205,27 +224,12 @@ footer a {
   text-decoration: none;
 }
 
-.most-popular ul li a {
-  color: black;
-  text-decoration: none;
-  font-size: 18px;
-}
 
 
-.editors-pick-sidebar a {
-  font-size: 14px;
-  color: black;
-  text-decoration: none;
-}
 
-.main-article small a {
-  color: gray;
-  text-decoration: none;
-}
 
-.main-article a {
-  color: #326891;
-}
+
+
 
 
 .main-article .author a {
@@ -245,7 +249,6 @@ footer a {
   margin-top: 50px;
 }
 
-
 .article-info {
   margin-bottom: 25px;
 }
@@ -255,9 +258,7 @@ footer a {
   margin-top: -15px;
 }
 
-
-
-.feedback>img {
+.feedback > img {
   height: 28px;
   position: relative;
   top: 7px;
@@ -269,7 +270,6 @@ footer a {
   background-color: #eee;
   border-radius: 50%;
 }
-
 
 /* Theory of Inflation Styles */
 
@@ -297,7 +297,6 @@ footer a {
   margin: 10px 0;
 }
 
-
 .inflation p:last-child {
   margin-right: 0;
 }
@@ -315,7 +314,7 @@ footer a {
   margin-top: -300px;
 }
 
-figure>hr {
+figure > hr {
   border: 0.5px solid black;
   width: 60px;
   margin: 13px 0;
@@ -329,8 +328,6 @@ figure>hr {
   color: gray;
   font-size: 12px;
 }
-
-
 
 .main-article small a:hover {
   text-decoration: underline;
@@ -348,7 +345,6 @@ figure>hr {
   margin: 35px 0 70px 0;
 }
 
-
 /* .comments {
   display: flex;
   justify-content: space-between;
@@ -359,14 +355,11 @@ figure>hr {
   margin-left: 12px;
 }
 
-
 /* Sidebar Styles */
 
 .editors-pick-sidebar {
   width: 210px;
 }
-
-
 
 .clearfix:after {
   content: "";
@@ -374,9 +367,11 @@ figure>hr {
   clear: both;
 }
 
-aside h2 a {
+
+
+aside h2 {
+  margin: 15px 0;
   color: black;
-  text-decoration: none;
   font-size: 17px;
 }
 
@@ -393,8 +388,6 @@ aside hr {
   margin: 15px 0;
 }
 
-
-
 .editors-pick-sidebar div {
   margin-bottom: 20px;
 }
@@ -406,7 +399,6 @@ aside hr {
 .signup-sidebar h2 {
   font-size: 18px;
 }
-
 
 .signup-sidebar button {
   text-transform: uppercase;
@@ -422,10 +414,7 @@ hr.clear {
   clear: both;
 }
 
-
 /* Recommended Styles */
-
-
 
 aside .recommended-grid {
   width: 70%;
@@ -436,22 +425,15 @@ aside .recommended-list {
   width: 30%;
 }
 
-
-
 aside h2 {
   margin: 15px 0;
   color: black;
   font-size: 17px;
 }
 
-
 .more-space-cosmos :nth-child(5) img {
   margin-bottom: 19px;
 }
-
-
-
-
 
 footer li {
   list-style: none;
@@ -466,20 +448,15 @@ footer li {
   border-top: 1px solid lightgray;
 }
 
-
-
 .recommended {
   margin-right: 18px;
   margin-bottom: 30px;
 }
 
-
-
 .recommended .date {
   color: grey;
   font-size: 12px;
 }
-
 
 /* News Categories Styles */
 
@@ -487,8 +464,6 @@ footer li {
   width: 70%;
   margin: 0 auto;
 }
-
-
 
 .home-page-link {
   font-size: 10px;
@@ -530,8 +505,6 @@ footer li {
   font-size: 14px;
   color: #333;
 }
-
-
 
 .news-categories nav ul li a:hover {
   text-decoration: underline;
@@ -588,7 +561,6 @@ footer li {
   border-top: 1px solid lightgray;
 }
 
-
 /* Footer Styles */
 
 footer {
@@ -596,8 +568,3 @@ footer {
   margin: 0 auto;
   padding: 5px;
 }
-
-
-
-
-
