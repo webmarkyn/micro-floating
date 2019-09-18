@@ -19,6 +19,37 @@ header img {
   height: 15px;
 }
 
+.news-categories img {
+  margin-top: 10px;
+}
+
+.editors-pick img {
+  width: 260px;
+}
+
+.more-space-cosmos img,
+.recommended {
+  width: 260px;
+}
+
+.editors-pick-sidebar img {
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+
+.feedback img {
+  height: 16px;
+}
+
+article figure img {
+  width: 100%;
+}
+
+.nav-bar img {
+  margin-right: 10px;
+}
+
 article .article-image img {
   width: 100%;
 }
@@ -42,9 +73,7 @@ header .nav-bar {
   margin-top: 10px;
 }
 
-.nav-bar img {
-  margin-right: 10px;
-}
+
 
 header .header-buttons {
   float: right;
@@ -98,9 +127,7 @@ article figure {
   margin-bottom: 40px;
 }
 
-article figure img {
-  width: 100%;
-}
+
 
 article figure figcaption {
   color: gray;
@@ -117,6 +144,10 @@ article figure small {
 .main-container {
   position: relative;
   z-index: 1;
+}
+
+aside {
+  width: 90%;
 }
 
 .main-container aside {
@@ -147,6 +178,56 @@ article figure small {
   margin-bottom: 10px;
 }
 
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: gray;
+}
+
+.news-categories nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.recommended span a {
+  color: black;
+  text-decoration: none;
+}
+
+.recommended small a {
+  float: right;
+  color: grey;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.most-popular ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+.editors-pick-sidebar a {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+
+.main-article small a {
+  color: gray;
+  text-decoration: none;
+}
+
+.main-article a {
+  color: #326891;
+}
+
+
 .main-article .author a {
   color: #333;
   text-decoration-color: lightgray;
@@ -164,9 +245,6 @@ article figure small {
   margin-top: 50px;
 }
 
-.main-article a {
-  color: #326891;
-}
 
 .article-info {
   margin-bottom: 25px;
@@ -177,9 +255,7 @@ article figure small {
   margin-top: -15px;
 }
 
-.feedback img {
-  height: 16px;
-}
+
 
 .feedback>img {
   height: 28px;
@@ -215,6 +291,13 @@ article figure small {
   font-weight: bold;
 }
 
+.signup-sidebar p {
+  font-size: 13px;
+  color: gray;
+  margin: 10px 0;
+}
+
+
 .inflation p:last-child {
   margin-right: 0;
 }
@@ -247,10 +330,7 @@ figure>hr {
   font-size: 12px;
 }
 
-.main-article small a {
-  color: gray;
-  text-decoration: none;
-}
+
 
 .main-article small a:hover {
   text-decoration: underline;
@@ -286,11 +366,7 @@ figure>hr {
   width: 210px;
 }
 
-.editors-pick-sidebar img {
-  height: 80px;
-  float: left;
-  margin-right: 10px;
-}
+
 
 .clearfix:after {
   content: "";
@@ -298,8 +374,18 @@ figure>hr {
   clear: both;
 }
 
+aside h2 a {
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+}
+
 .editors-pick-sidebar h2 {
   font-size: 15px;
+}
+
+aside hr {
+  border-top: 1px solid black;
 }
 
 .editors-pick-sidebar hr {
@@ -307,11 +393,7 @@ figure>hr {
   margin: 15px 0;
 }
 
-.editors-pick-sidebar a {
-  font-size: 14px;
-  color: black;
-  text-decoration: none;
-}
+
 
 .editors-pick-sidebar div {
   margin-bottom: 20px;
@@ -325,11 +407,6 @@ figure>hr {
   font-size: 18px;
 }
 
-.signup-sidebar p {
-  font-size: 13px;
-  color: gray;
-  margin: 10px 0;
-}
 
 .signup-sidebar button {
   text-transform: uppercase;
@@ -348,9 +425,7 @@ hr.clear {
 
 /* Recommended Styles */
 
-aside {
-  width: 90%;
-}
+
 
 aside .recommended-grid {
   width: 70%;
@@ -361,9 +436,7 @@ aside .recommended-list {
   width: 30%;
 }
 
-aside hr {
-  border-top: 1px solid black;
-}
+
 
 aside h2 {
   margin: 15px 0;
@@ -371,23 +444,19 @@ aside h2 {
   font-size: 17px;
 }
 
-aside h2 a {
-  color: black;
-  text-decoration: none;
-  font-size: 17px;
-}
 
 .more-space-cosmos :nth-child(5) img {
   margin-bottom: 19px;
 }
 
-.more-space-cosmos img,
-.recommended {
-  width: 260px;
-}
 
-.editors-pick img {
-  width: 260px;
+
+
+
+footer li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 7px;
 }
 
 .most-popular ul li {
@@ -397,28 +466,14 @@ aside h2 a {
   border-top: 1px solid lightgray;
 }
 
-.most-popular ul li a {
-  color: black;
-  text-decoration: none;
-  font-size: 18px;
-}
+
 
 .recommended {
   margin-right: 18px;
   margin-bottom: 30px;
 }
 
-.recommended small a {
-  float: right;
-  color: grey;
-  font-size: 10px;
-  text-decoration: none;
-}
 
-.recommended span a {
-  color: black;
-  text-decoration: none;
-}
 
 .recommended .date {
   color: grey;
@@ -433,9 +488,7 @@ aside h2 a {
   margin: 0 auto;
 }
 
-.news-categories img {
-  margin-top: 10px;
-}
+
 
 .home-page-link {
   font-size: 10px;
@@ -478,10 +531,7 @@ aside h2 a {
   color: #333;
 }
 
-.news-categories nav ul li a {
-  color: black;
-  text-decoration: none;
-}
+
 
 .news-categories nav ul li a:hover {
   text-decoration: underline;
@@ -497,22 +547,22 @@ aside h2 a {
   font-weight: bold;
 }
 
-#special-list> :nth-child(2) {
+#special-list > :nth-child(2) {
   padding-left: 25px;
   background: url(icons/delivery.png) left/20px no-repeat;
 }
 
-#special-list> :nth-child(3) {
+#special-list > :nth-child(3) {
   padding-left: 25px;
   background: url(icons/nyt-logo.gif) left/20px no-repeat;
 }
 
-#special-list> :nth-child(4) {
+#special-list > :nth-child(4) {
   padding-left: 25px;
   background: url(icons/crossword.png) left/20px no-repeat;
 }
 
-#special-list> :nth-child(5) {
+#special-list > :nth-child(5) {
   padding-left: 25px;
   background: url(icons/cooking.png) left/20px no-repeat;
 }
@@ -547,18 +597,7 @@ footer {
   padding: 5px;
 }
 
-footer li {
-  list-style: none;
-  display: inline-block;
-  margin-right: 7px;
-}
 
-footer a {
-  font-size: 13px;
-  text-decoration: none;
-  color: gray;
-}
 
-footer a:hover {
-  text-decoration: underline;
-}
+
+
