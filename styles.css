@@ -1,560 +1,566 @@
 /* Main Body */
 
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .body {
-    background-color: white
+  background-color: white
 }
 
 
 /* Header Styles */
 
 header img {
-    height: 15px;
+  height: 15px;
+}
+
+article .article-image img {
+  width: 100%;
 }
 
 header {
-    position: fixed;
-    z-index: 2;
-    top: 0;
-    right: 0;
-    left: 0;
-    background-color: white;
-    padding: 5px 60px;
-    border-bottom: 1px solid lightgray;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  padding: 5px 60px;
+  border-bottom: 1px solid lightgray;
 }
 
 header .nav-bar {
-    display: inline-block;
-    margin: 0 10px;
-    margin-left: 10px;
-    margin-right: 20px;
-    margin-top: 10px;
+  display: inline-block;
+  margin: 0 10px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 10px;
 }
 
 .nav-bar img {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 header .header-buttons {
-    float: right;
+  float: right;
 }
 
 header a {
-    text-transform: uppercase;
-    text-decoration: none;
-    color: black;
-    font-size: 16px;
-    font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 header>img {
-    position: absolute;
-    width: 200px;
-    display: block;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 8px;
-    height: 30px;
+  position: absolute;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 8px;
+  height: 30px;
 }
 
 header button {
-    text-transform: uppercase;
-    background-color: #6288a5;
-    border: 1px solid #326891;
-    color: white;
-    font-size: 11px;
-    font-weight: bold;
-    padding: 10px 13px;
-    border-radius: 4px;
-    margin-left: 3px;
+  text-transform: uppercase;
+  background-color: #6288a5;
+  border: 1px solid #326891;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 10px 13px;
+  border-radius: 4px;
+  margin-left: 3px;
 }
 
 
 /* Article Styles */
 
 article {
-    width: 70%;
-    margin: 0 auto;
+  width: 70%;
+  margin: 0 auto;
 }
 
 article h2 {
-    font-size: 35px;
-    margin: 80px 0 30px 0;
+  font-size: 35px;
+  margin: 80px 0 30px 0;
 }
 
 article figure {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 article figure img {
-    width: 100%;
+  width: 100%;
 }
 
 article figure figcaption {
-    color: gray;
-    font-size: 15px;
+  color: gray;
+  font-size: 15px;
 }
 
 article figure small {
-    color: darkgray;
+  color: darkgray;
 }
 
 
 /* Main-container Styles */
 
 .main-container {
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
 .main-container aside {
-    position: absolute;
-    top: 0;
-    right: -120px;
-    width: 210px;
-    margin-left: 60px;
-    margin-top: 900px;
+  position: absolute;
+  top: 0;
+  right: -120px;
+  width: 210px;
+  margin-left: 60px;
+  margin-top: 900px;
 }
 
 .main-container aside [class$="sidebar"] {
-    margin-bottom: 550px;
+  margin-bottom: 550px;
 }
 
 
 /* Main Article Styles */
 
 .main-article {
-    width: 65%;
-    margin: 0 auto;
+  width: 65%;
+  margin: 0 auto;
 }
 
 .main-article .author {
-    font-size: 15px;
-    font-weight: bold;
-    color: black;
-    margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
 }
 
 .main-article .author a {
-    color: #333;
-    text-decoration-color: lightgray;
+  color: #333;
+  text-decoration-color: lightgray;
 }
 
 .main-article time {
-    color: #333;
+  color: #333;
 }
 
 .main-article p {
-    color: #333;
-    font-size: 18px;
-    line-height: 30px;
-    margin-bottom: 25px;
+  color: #333;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 25px;
+  margin-top: 50px:
 }
 
 .main-article a {
-    color: #326891;
+  color: #326891;
 }
 
 .article-info {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .feedback {
-    float: right;
-    margin-top: 40px;
+  float: right;
+  margin-top: -15px;
 }
 
 .feedback img {
-    height: 16px;
+  height: 16px;
 }
 
 .feedback>img {
-    height: 28px;
-    position: relative;
-    top: 7px;
+  height: 28px;
+  position: relative;
+  top: 7px;
 }
 
 .feedback .social {
-    display: inline-block;
-    padding: 5px;
-    background-color: #eee;
-    border-radius: 50%;
+  display: inline-block;
+  padding: 5px;
+  background-color: #eee;
+  border-radius: 50%;
 }
 
 
 /* Theory of Inflation Styles */
 
 .inflation {
-
-    width: 720px;
+  width: 720px;
+  margin: 0 auto;
 }
 
 .inflation p {
-    float: left;
-    margin-right: 25px;
-    font-size: 13px;
-    line-height: 18px;
-    width: 160px;
+  float: left;
+  margin-right: 25px;
+  font-size: 13px;
+  line-height: 18px;
+  width: 160px;
 }
 
 .inflation p span {
-    font-size: 12px;
-    font-weight: bold;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .inflation p:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .pt1 {
-    /* margin-top: -530px; */
-    margin-left: -60px;
-    padding-top: 129px;
-    margin-bottom: 85px;
-    height: 657px;
-    background: url(images/inflation.png);
-    background-size: contain;
+  /* margin-top: -530px; */
+  padding-top: 129px;
+  margin-bottom: 85px;
+  height: 657px;
+  background: url(images/inflation.png);
+  background-size: contain;
 }
 
 .pt2 {
-    margin-top: -300px;
-    margin-left: -60px;
+  margin-top: -300px;
 }
 
 figure>hr {
-    border: 0.5px solid black;
-    width: 60px;
-    margin: 13px 0;
+  border: 0.5px solid black;
+  width: 60px;
+  margin: 13px 0;
 }
 
 #theory-authors {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .main-article small {
-    color: gray;
-    font-size: 12px;
+  color: gray;
+  font-size: 12px;
 }
 
 .main-article small a {
-    color: gray;
-    text-decoration: none;
+  color: gray;
+  text-decoration: none;
 }
 
 .main-article small a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .main-article button {
-    text-transform: uppercase;
-    background-color: #6288a5;
-    border: 1px solid #326891;
-    color: white;
-    font-size: 13px;
-    font-weight: bold;
-    padding: 10px 100px;
-    border-radius: 4px;
-    margin: 35px 0 70px 0;
+  text-transform: uppercase;
+  background-color: #6288a5;
+  border: 1px solid #326891;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 100px;
+  border-radius: 4px;
+  margin: 35px 0 70px 0;
 }
 
+
 /* .comments {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 } */
 
 .comments .social {
-    margin-left: 12px;
+  margin-left: 12px;
 }
 
 
 /* Sidebar Styles */
 
 .editors-pick-sidebar {
-    width: 210px;
+  width: 210px;
 }
 
 .editors-pick-sidebar img {
-    height: 80px;
-    float: left;
-    margin-right: 10px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
 }
 
 .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .editors-pick-sidebar h2 {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .editors-pick-sidebar hr {
-    border-top: 1px solid lightgrey;
-    margin: 15px 0;
+  border-top: 1px solid lightgrey;
+  margin: 15px 0;
 }
 
 .editors-pick-sidebar a {
-    font-size: 14px;
-    color: black;
-    text-decoration: none;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
 }
 
 .editors-pick-sidebar div {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .signup-sidebar {
-    width: 180px;
+  width: 180px;
 }
 
 .signup-sidebar h2 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .signup-sidebar p {
-    font-size: 13px;
-    color: gray;
-    margin: 10px 0;
+  font-size: 13px;
+  color: gray;
+  margin: 10px 0;
 }
 
 .signup-sidebar button {
-    text-transform: uppercase;
-    background-color: #6288a5;
-    color: white;
-    font-size: 13px;
-    font-weight: bold;
-    padding: 10px 60px;
-    border-radius: 3px;
+  text-transform: uppercase;
+  background-color: #6288a5;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 60px;
+  border-radius: 3px;
+}
+
+hr.clear {
+  clear: both;
 }
 
 
 /* Recommended Styles */
 
 aside {
-    width: 90%;
+  width: 90%;
 }
 
 aside .recommended-grid {
-    width: 70%;
-    margin-right: 25px;
+  width: 70%;
+  margin-right: 25px;
 }
 
 aside .recommended-list {
-    width: 30%;
+  width: 30%;
 }
 
 aside hr {
-    border-top: 1px solid black;
+  border-top: 1px solid black;
 }
 
 aside h2 {
-    margin: 15px 0;
-    color: black;
-    font-size: 17px;
+  margin: 15px 0;
+  color: black;
+  font-size: 17px;
 }
 
 aside h2 a {
-    color: black;
-    text-decoration: none;
-    font-size: 17px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 .more-space-cosmos :nth-child(5) img {
-    margin-bottom: 19px;
+  margin-bottom: 19px;
 }
 
 .more-space-cosmos img,
 .recommended {
-    width: 260px;
+  width: 260px;
 }
 
-.editors-pick {
-}
+.editors-pick {}
 
 .editors-pick img {
-    width: 260px;
+  width: 260px;
 }
 
 .most-popular ul li {
-    list-style: none;
-    margin: 10px 0;
-    padding: 15px 0;
-    border-top: 1px solid lightgray;
+  list-style: none;
+  margin: 10px 0;
+  padding: 15px 0;
+  border-top: 1px solid lightgray;
 }
 
 .most-popular ul li a {
-    color: black;
-    text-decoration: none;
-    font-size: 18px;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .recommended {
-    margin-right: 18px;
-    margin-bottom: 30px;
+  margin-right: 18px;
+  margin-bottom: 30px;
 }
 
 .recommended small a {
-    float: right;
-    color: grey;
-    font-size: 10px;
-    text-decoration: none;
+  float: right;
+  color: grey;
+  font-size: 10px;
+  text-decoration: none;
 }
 
 .recommended span a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .recommended .date {
-    color: grey;
-    font-size: 12px;
+  color: grey;
+  font-size: 12px;
 }
 
 
 /* News Categories Styles */
 
 .news-categories {
-    width: 90%;
-    margin: 0 auto;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .news-categories img {
-    margin-top: 10px;
-    margin-left: 50px;
+  margin-top: 10px;
 }
 
 .home-page-link {
-    font-size: 10px;
-    text-decoration: none;
-    color: rgb(98, 136, 165);
-    float: right;
-    margin-top: 15px;
+  font-size: 10px;
+  text-decoration: none;
+  color: rgb(98, 136, 165);
+  float: right;
+  margin-top: 15px;
 }
 
 .news-categories nav {
-    /* display: flex;
-    justify-content: space-around; */
-    margin: 15px 0;
-    clear: both;
+  /* display: flex;
+  justify-content: space-around; */
+  margin: 0 auto;
+  width: 1335px;
+  clear: both;
 }
 
 .news-categories hr {
-    clear: both;
-    width: 100%;
+  clear: both;
+  width: 100%;
 }
 
 .news-categories nav ul {
-    float: left;
-    margin-right: 118px;
+  float: left;
+  margin-right: 118px;
 }
 
 .news-categories nav ul:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
-
 .news-categories nav ul li {
-    list-style: none;
-    font-size: 13px;
-    margin-bottom: 10px;
+  list-style: none;
+  font-size: 13px;
+  margin-bottom: 10px;
 }
 
 .news-categories nav ul li h2 {
-    font-size: 14px;
-    color: #333;
+  font-size: 14px;
+  color: #333;
 }
 
 .news-categories nav ul li a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .news-categories nav ul li a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .news-categories nav ul li:first-child {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .special-link {
-    font-size: 15px;
-    line-height: 20px;
-    font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: bold;
 }
 
 #special-list> :nth-child(2) {
-    padding-left: 25px;
-    background: url(icons/delivery.png) left/20px no-repeat;
+  padding-left: 25px;
+  background: url(icons/delivery.png) left/20px no-repeat;
 }
 
 #special-list> :nth-child(3) {
-    padding-left: 25px;
-    background: url(icons/nyt-logo.gif) left/20px no-repeat;
+  padding-left: 25px;
+  background: url(icons/nyt-logo.gif) left/20px no-repeat;
 }
 
 #special-list> :nth-child(4) {
-    padding-left: 25px;
-    background: url(icons/crossword.png) left/20px no-repeat;
+  padding-left: 25px;
+  background: url(icons/crossword.png) left/20px no-repeat;
 }
 
 #special-list> :nth-child(5) {
-    padding-left: 25px;
-    background: url(icons/cooking.png) left/20px no-repeat;
+  padding-left: 25px;
+  background: url(icons/cooking.png) left/20px no-repeat;
 }
 
 #special-list :not(.special-link) {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 #special-list li h2:first-of-type {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 #special-list {
-    border-left: 1px solid lightgray;
-    padding-left: 15px;
+  border-left: 1px solid lightgray;
+  padding-left: 15px;
 }
 
 .news-categories hr:first-of-type {
-    border-top: 3px double lightgray;
+  border-top: 3px double lightgray;
 }
 
 .news-categories hr:last-of-type {
-    border-top: 1px solid lightgray;
+  border-top: 1px solid lightgray;
 }
 
 
 /* Footer Styles */
 
 footer {
-    width: 75%;
-    margin: 0 auto;
-    padding: 5px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 5px;
 }
 
 footer li {
-    list-style: none;
-    display: inline-block;
-    margin-right: 7px;
+  list-style: none;
+  display: inline-block;
+  margin-right: 7px;
 }
 
 footer a {
-    font-size: 13px;
-    text-decoration: none;
-    color: gray;
+  font-size: 13px;
+  text-decoration: none;
+  color: gray;
 }
 
 footer a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
