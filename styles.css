@@ -9,8 +9,6 @@
 }
 
 .body {
-    display: flex;
-    flex-direction: column;
     background-color: white
 }
 
@@ -23,32 +21,47 @@ header img {
 
 header {
     position: fixed;
+    z-index: 2;
     top: 0;
     right: 0;
     left: 0;
     background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 10px;
+    padding: 5px 60px;
     border-bottom: 1px solid lightgray;
 }
 
-header>nav-bar {
+header .nav-bar {
+    display: inline-block;
     margin: 0 10px;
     margin-left: 10px;
     margin-right: 20px;
+    margin-top: 10px;
+}
+
+.nav-bar img {
+    margin-right: 10px;
+}
+
+header .header-buttons {
+    float: right;
 }
 
 header a {
     text-transform: uppercase;
     text-decoration: none;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
 }
 
 header>img {
+    position: absolute;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 8px;
     height: 30px;
 }
 
@@ -68,9 +81,8 @@ header button {
 /* Article Styles */
 
 article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 70%;
+    margin: 0 auto;
 }
 
 article h2 {
@@ -80,6 +92,10 @@ article h2 {
 
 article figure {
     margin-bottom: 40px;
+}
+
+article figure img {
+    width: 100%;
 }
 
 article figure figcaption {
@@ -95,14 +111,14 @@ article figure small {
 /* Main-container Styles */
 
 .main-container {
-    display: flex;
-    width: 50%;
+    position: relative;
+    z-index: 1;
 }
 
 .main-container aside {
-    align-self: flex-start;
-    display: flex;
-    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: -120px;
     width: 210px;
     margin-left: 60px;
     margin-top: 900px;
@@ -116,7 +132,8 @@ article figure small {
 /* Main Article Styles */
 
 .main-article {
-    width: 620px;
+    width: 65%;
+    margin: 0 auto;
 }
 
 .main-article .author {
@@ -147,10 +164,12 @@ article figure small {
 }
 
 .article-info {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
     margin-bottom: 25px;
+}
+
+.feedback {
+    float: right;
+    margin-top: 40px;
 }
 
 .feedback img {
@@ -174,12 +193,13 @@ article figure small {
 /* Theory of Inflation Styles */
 
 .inflation {
-    display: flex;
-    justify-content: space-between;
+
     width: 720px;
 }
 
 .inflation p {
+    float: left;
+    margin-right: 25px;
     font-size: 13px;
     line-height: 18px;
     width: 160px;
@@ -190,9 +210,23 @@ article figure small {
     font-weight: bold;
 }
 
+.inflation p:last-child {
+    margin-right: 0;
+}
+
 .pt1 {
-    margin-top: -530px;
+    /* margin-top: -530px; */
+    margin-left: -60px;
+    padding-top: 129px;
     margin-bottom: 85px;
+    height: 657px;
+    background: url(images/inflation.png);
+    background-size: contain;
+}
+
+.pt2 {
+    margin-top: -300px;
+    margin-left: -60px;
 }
 
 figure>hr {
@@ -231,11 +265,11 @@ figure>hr {
     margin: 35px 0 70px 0;
 }
 
-.comments {
+/* .comments {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-}
+} */
 
 .comments .social {
     margin-left: 12px;
@@ -308,8 +342,6 @@ figure>hr {
 
 aside {
     width: 90%;
-    align-self: center;
-    display: flex;
 }
 
 aside .recommended-grid {
@@ -337,11 +369,6 @@ aside h2 a {
     font-size: 17px;
 }
 
-.more-space-cosmos {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .more-space-cosmos :nth-child(5) img {
     margin-bottom: 19px;
 }
@@ -352,7 +379,6 @@ aside h2 a {
 }
 
 .editors-pick {
-    display: flex;
 }
 
 .editors-pick img {
@@ -399,7 +425,7 @@ aside h2 a {
 
 .news-categories {
     width: 90%;
-    align-self: center;
+    margin: 0 auto;
 }
 
 .news-categories img {
@@ -416,10 +442,26 @@ aside h2 a {
 }
 
 .news-categories nav {
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
     margin: 15px 0;
+    clear: both;
 }
+
+.news-categories hr {
+    clear: both;
+    width: 100%;
+}
+
+.news-categories nav ul {
+    float: left;
+    margin-right: 118px;
+}
+
+.news-categories nav ul:last-child {
+    margin-right: 0;
+}
+
 
 .news-categories nav ul li {
     list-style: none;
@@ -497,7 +539,7 @@ aside h2 a {
 
 footer {
     width: 75%;
-    align-self: center;
+    margin: 0 auto;
     padding: 5px;
 }
 
