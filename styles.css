@@ -1,0 +1,518 @@
+/* Main Body */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    background-color: white
+}
+
+
+/* Header Styles */
+
+header img {
+    height: 15px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+header>nav-bar {
+    margin: 0 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+header a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+header>img {
+    height: 30px;
+}
+
+header button {
+    text-transform: uppercase;
+    background-color: #6288a5;
+    border: 1px solid #326891;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 10px 13px;
+    border-radius: 4px;
+    margin-left: 3px;
+}
+
+
+/* Article Styles */
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article h2 {
+    font-size: 35px;
+    margin: 80px 0 30px 0;
+}
+
+article figure {
+    margin-bottom: 40px;
+}
+
+article figure figcaption {
+    color: gray;
+    font-size: 15px;
+}
+
+article figure small {
+    color: darkgray;
+}
+
+
+/* Main-container Styles */
+
+.main-container {
+    display: flex;
+    width: 50%;
+}
+
+.main-container aside {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    margin-left: 60px;
+    margin-top: 900px;
+}
+
+.main-container aside [class$="sidebar"] {
+    margin-bottom: 550px;
+}
+
+
+/* Main Article Styles */
+
+.main-article {
+    width: 620px;
+}
+
+.main-article .author {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.main-article .author a {
+    color: #333;
+    text-decoration-color: lightgray;
+}
+
+.main-article time {
+    color: #333;
+}
+
+.main-article p {
+    color: #333;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.main-article a {
+    color: #326891;
+}
+
+.article-info {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.feedback img {
+    height: 16px;
+}
+
+.feedback>img {
+    height: 28px;
+    position: relative;
+    top: 7px;
+}
+
+.feedback .social {
+    display: inline-block;
+    padding: 5px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+
+/* Theory of Inflation Styles */
+
+.inflation {
+    display: flex;
+    justify-content: space-between;
+    width: 720px;
+}
+
+.inflation p {
+    font-size: 13px;
+    line-height: 18px;
+    width: 160px;
+}
+
+.inflation p span {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.pt1 {
+    margin-top: -530px;
+    margin-bottom: 85px;
+}
+
+figure>hr {
+    border: 0.5px solid black;
+    width: 60px;
+    margin: 13px 0;
+}
+
+#theory-authors {
+    font-size: 13px;
+}
+
+.main-article small {
+    color: gray;
+    font-size: 12px;
+}
+
+.main-article small a {
+    color: gray;
+    text-decoration: none;
+}
+
+.main-article small a:hover {
+    text-decoration: underline;
+}
+
+.main-article button {
+    text-transform: uppercase;
+    background-color: #6288a5;
+    border: 1px solid #326891;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 100px;
+    border-radius: 4px;
+    margin: 35px 0 70px 0;
+}
+
+.comments {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.comments .social {
+    margin-left: 12px;
+}
+
+
+/* Sidebar Styles */
+
+.editors-pick-sidebar {
+    width: 210px;
+}
+
+.editors-pick-sidebar img {
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.editors-pick-sidebar h2 {
+    font-size: 15px;
+}
+
+.editors-pick-sidebar hr {
+    border-top: 1px solid lightgrey;
+    margin: 15px 0;
+}
+
+.editors-pick-sidebar a {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+.editors-pick-sidebar div {
+    margin-bottom: 20px;
+}
+
+.signup-sidebar {
+    width: 180px;
+}
+
+.signup-sidebar h2 {
+    font-size: 18px;
+}
+
+.signup-sidebar p {
+    font-size: 13px;
+    color: gray;
+    margin: 10px 0;
+}
+
+.signup-sidebar button {
+    text-transform: uppercase;
+    background-color: #6288a5;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 60px;
+    border-radius: 3px;
+}
+
+
+/* Recommended Styles */
+
+aside {
+    width: 90%;
+    align-self: center;
+    display: flex;
+}
+
+aside .recommended-grid {
+    width: 70%;
+    margin-right: 25px;
+}
+
+aside .recommended-list {
+    width: 30%;
+}
+
+aside hr {
+    border-top: 1px solid black;
+}
+
+aside h2 {
+    margin: 15px 0;
+    color: black;
+    font-size: 17px;
+}
+
+aside h2 a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.more-space-cosmos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.more-space-cosmos :nth-child(5) img {
+    margin-bottom: 19px;
+}
+
+.more-space-cosmos img,
+.recommended {
+    width: 260px;
+}
+
+.editors-pick {
+    display: flex;
+}
+
+.editors-pick img {
+    width: 260px;
+}
+
+.most-popular ul li {
+    list-style: none;
+    margin: 10px 0;
+    padding: 15px 0;
+    border-top: 1px solid lightgray;
+}
+
+.most-popular ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.recommended {
+    margin-right: 18px;
+    margin-bottom: 30px;
+}
+
+.recommended small a {
+    float: right;
+    color: grey;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.recommended span a {
+    color: black;
+    text-decoration: none;
+}
+
+.recommended .date {
+    color: grey;
+    font-size: 12px;
+}
+
+
+/* News Categories Styles */
+
+.news-categories {
+    width: 90%;
+    align-self: center;
+}
+
+.news-categories img {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.home-page-link {
+    font-size: 10px;
+    text-decoration: none;
+    color: rgb(98, 136, 165);
+    float: right;
+    margin-top: 15px;
+}
+
+.news-categories nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+
+.news-categories nav ul li {
+    list-style: none;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.news-categories nav ul li h2 {
+    font-size: 14px;
+    color: #333;
+}
+
+.news-categories nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.news-categories nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.news-categories nav ul li:first-child {
+    text-transform: uppercase;
+}
+
+.special-link {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+#special-list> :nth-child(2) {
+    padding-left: 25px;
+    background: url(icons/delivery.png) left/20px no-repeat;
+}
+
+#special-list> :nth-child(3) {
+    padding-left: 25px;
+    background: url(icons/nyt-logo.gif) left/20px no-repeat;
+}
+
+#special-list> :nth-child(4) {
+    padding-left: 25px;
+    background: url(icons/crossword.png) left/20px no-repeat;
+}
+
+#special-list> :nth-child(5) {
+    padding-left: 25px;
+    background: url(icons/cooking.png) left/20px no-repeat;
+}
+
+#special-list :not(.special-link) {
+    font-size: 10px;
+}
+
+#special-list li h2:first-of-type {
+    font-size: 14px;
+}
+
+#special-list {
+    border-left: 1px solid lightgray;
+    padding-left: 15px;
+}
+
+.news-categories hr:first-of-type {
+    border-top: 3px double lightgray;
+}
+
+.news-categories hr:last-of-type {
+    border-top: 1px solid lightgray;
+}
+
+
+/* Footer Styles */
+
+footer {
+    width: 75%;
+    align-self: center;
+    padding: 5px;
+}
+
+footer li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 7px;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: gray;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
