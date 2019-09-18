@@ -161,7 +161,7 @@ article figure small {
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 25px;
-  margin-top: 50px:
+  margin-top: 50px;
 }
 
 .main-article a {
@@ -385,8 +385,6 @@ aside h2 a {
 .recommended {
   width: 260px;
 }
-
-.editors-pick {}
 
 .editors-pick img {
   width: 260px;
