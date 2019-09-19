@@ -408,11 +408,10 @@ hr.clear {
   margin: 0 auto;
 }
 
-
 aside .recommended-grid {
   width: 68%;
   margin-right: 2%;
-  float:left;
+  float: left;
 }
 
 aside .recommended-list {
