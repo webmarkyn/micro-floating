@@ -35,6 +35,7 @@ article figure img {
 
 .news-categories img {
   margin-top: 10px;
+  display: block;
 }
 
 .editors-pick img {
@@ -254,7 +255,6 @@ footer a:hover {
 
 .feedback {
   float: right;
-  margin-top: -15px;
 }
 
 .feedback .social {
@@ -335,14 +335,11 @@ figure > hr {
   font-weight: bold;
   padding: 10px 100px;
   border-radius: 4px;
-  margin: 35px 0 70px 0;
 }
 
-/* .comments {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-} */
+.comments {
+  padding: 35px 0 70px 0;
+}
 
 .comments .social {
   margin-left: 12px;
@@ -406,13 +403,20 @@ hr.clear {
 }
 
 /* Recommended Styles */
+.recommended-articles {
+  overflow: auto;
+  margin: 0 auto;
+}
+
 
 aside .recommended-grid {
-  width: 70%;
-  margin-right: 25px;
+  width: 68%;
+  margin-right: 2%;
+  float:left;
 }
 
 aside .recommended-list {
+  float: right;
   width: 30%;
 }
 
@@ -436,6 +440,7 @@ footer li {
 .recommended {
   margin-right: 18px;
   margin-bottom: 30px;
+  display: inline-grid;
 }
 
 .recommended .date {
@@ -448,6 +453,7 @@ footer li {
 .news-categories {
   width: 70%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .home-page-link {
@@ -459,10 +465,10 @@ footer li {
 }
 
 .news-categories nav {
-  /* display: flex;
-  justify-content: space-around; */
+  display: inline-block;
+  text-align: left;
   margin: 0 auto;
-  width: 1335px;
+  overflow: auto;
   clear: both;
 }
 
@@ -473,7 +479,7 @@ footer li {
 
 .news-categories nav ul {
   float: left;
-  margin-right: 118px;
+  margin-right: 35px;
 }
 
 .news-categories nav ul:last-child {
@@ -552,4 +558,25 @@ footer {
   width: 70%;
   margin: 0 auto;
   padding: 5px;
+}
+
+/* Fixed banner */
+
+.fixed-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  background: #fff;
+  text-align: center;
+  z-index: 2;
+  border-top: 1px solid #000;
+  line-height: 55px;
+}
+
+.fixed-banner .banner-uparrow {
+  cursor: pointer;
+  margin: 10px 25px 0 0;
+  float: right;
 }
