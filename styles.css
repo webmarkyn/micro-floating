@@ -1,0 +1,581 @@
+/* Main Body */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.body {
+  background-color: white;
+}
+
+/* Header Styles */
+
+header img {
+  height: 15px;
+}
+
+header > img {
+  position: absolute;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 8px;
+  height: 30px;
+}
+
+article figure img {
+  width: 100%;
+}
+
+.news-categories img {
+  margin-top: 10px;
+  display: block;
+}
+
+.editors-pick img {
+  width: 260px;
+}
+
+.more-space-cosmos img,
+.recommended {
+  width: 260px;
+}
+
+.editors-pick-sidebar img {
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+
+.feedback img {
+  height: 16px;
+}
+
+.nav-bar img {
+  margin-right: 10px;
+}
+
+.feedback > img {
+  height: 28px;
+  position: relative;
+  top: 7px;
+}
+
+article .article-image img {
+  width: 100%;
+}
+
+header {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  padding: 5px 60px;
+  border-bottom: 1px solid lightgray;
+}
+
+header .nav-bar {
+  display: inline-block;
+  margin: 0 10px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+header .header-buttons {
+  float: right;
+}
+
+header a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+header button {
+  text-transform: uppercase;
+  background-color: #6288a5;
+  border: 1px solid #326891;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 10px 13px;
+  border-radius: 4px;
+  margin-left: 3px;
+}
+
+/* Article Styles */
+
+article {
+  width: 70%;
+  margin: 0 auto;
+}
+
+article h2 {
+  font-size: 35px;
+  margin: 80px 0 30px 0;
+}
+
+article figure {
+  margin-bottom: 40px;
+}
+
+article figure figcaption {
+  color: gray;
+  font-size: 15px;
+}
+
+article figure small {
+  color: darkgray;
+}
+
+/* Main-container Styles */
+
+.main-container {
+  position: relative;
+  z-index: 1;
+}
+
+aside {
+  width: 90%;
+}
+
+.main-container aside {
+  position: absolute;
+  top: 0;
+  right: -120px;
+  width: 210px;
+  margin-left: 60px;
+  margin-top: 900px;
+}
+
+.main-container aside [class$="sidebar"] {
+  margin-bottom: 550px;
+}
+
+/* Main Article Styles */
+
+.main-article {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.main-article .author {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+}
+
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: gray;
+}
+
+aside h2 a {
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 15px 0;
+}
+
+.editors-pick-sidebar a {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+
+.main-article a {
+  color: #326891;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.main-article small a {
+  color: gray;
+  text-decoration: none;
+}
+
+.recommended span a {
+  color: black;
+  text-decoration: none;
+}
+
+.recommended small a {
+  float: right;
+  color: grey;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.most-popular ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.news-categories nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.main-article .author a {
+  color: #333;
+  text-decoration-color: lightgray;
+}
+
+.main-article time {
+  color: #333;
+}
+
+.main-article p {
+  color: #333;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+.article-info {
+  margin-bottom: 25px;
+}
+
+.feedback {
+  float: right;
+}
+
+.feedback .social {
+  display: inline-block;
+  padding: 5px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* Theory of Inflation Styles */
+
+.inflation {
+  width: 720px;
+  margin: 0 auto;
+}
+
+.inflation p {
+  float: left;
+  margin-right: 25px;
+  font-size: 13px;
+  line-height: 18px;
+  width: 160px;
+}
+
+.inflation p span {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.signup-sidebar p {
+  font-size: 13px;
+  color: gray;
+  margin: 10px 0;
+}
+
+.inflation p:last-child {
+  margin-right: 0;
+}
+
+.pt1 {
+  /* margin-top: -530px; */
+  padding-top: 129px;
+  margin-bottom: 85px;
+  height: 657px;
+  background: url(images/inflation.png);
+  background-size: contain;
+}
+
+.pt2 {
+  margin-top: -300px;
+}
+
+figure > hr {
+  border: 0.5px solid black;
+  width: 60px;
+  margin: 13px 0;
+}
+
+#theory-authors {
+  font-size: 13px;
+}
+
+.main-article small {
+  color: gray;
+  font-size: 12px;
+}
+
+.main-article small a:hover {
+  text-decoration: underline;
+}
+
+.main-article button {
+  text-transform: uppercase;
+  background-color: #6288a5;
+  border: 1px solid #326891;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 100px;
+  border-radius: 4px;
+}
+
+.comments {
+  padding: 35px 0 70px 0;
+}
+
+.comments .social {
+  margin-left: 12px;
+}
+
+/* Sidebar Styles */
+
+.editors-pick-sidebar {
+  width: 210px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+aside h2 {
+  margin: 15px 0;
+  color: black;
+  font-size: 17px;
+}
+
+.editors-pick-sidebar h2 {
+  font-size: 15px;
+}
+
+aside hr {
+  border-top: 1px solid black;
+}
+
+.editors-pick-sidebar hr {
+  border-top: 1px solid lightgrey;
+  margin: 15px 0;
+}
+
+.editors-pick-sidebar div {
+  margin-bottom: 20px;
+}
+
+.signup-sidebar {
+  width: 180px;
+}
+
+.signup-sidebar h2 {
+  font-size: 18px;
+}
+
+.signup-sidebar button {
+  text-transform: uppercase;
+  background-color: #6288a5;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 60px;
+  border-radius: 3px;
+}
+
+hr.clear {
+  clear: both;
+}
+
+/* Recommended Styles */
+.recommended-articles {
+  overflow: auto;
+  margin: 0 auto;
+}
+
+aside .recommended-grid {
+  width: 68%;
+  margin-right: 2%;
+  float: left;
+}
+
+aside .recommended-list {
+  float: right;
+  width: 30%;
+}
+
+.more-space-cosmos :nth-child(5) img {
+  margin-bottom: 19px;
+}
+
+footer li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 7px;
+}
+
+.most-popular ul li {
+  list-style: none;
+  margin: 10px 0;
+  padding: 15px 0;
+  border-top: 1px solid lightgray;
+}
+
+.recommended {
+  margin-right: 18px;
+  margin-bottom: 30px;
+  display: inline-grid;
+}
+
+.recommended .date {
+  color: grey;
+  font-size: 12px;
+}
+
+/* News Categories Styles */
+
+.news-categories {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home-page-link {
+  font-size: 10px;
+  text-decoration: none;
+  color: rgb(98, 136, 165);
+  float: right;
+  margin-top: 15px;
+}
+
+.news-categories nav {
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
+  overflow: auto;
+  clear: both;
+}
+
+.news-categories hr {
+  clear: both;
+  width: 100%;
+}
+
+.news-categories nav ul {
+  float: left;
+  margin-right: 35px;
+}
+
+.news-categories nav ul:last-child {
+  margin-right: 0;
+}
+
+.news-categories nav ul li {
+  list-style: none;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.news-categories nav ul li h2 {
+  font-size: 14px;
+  color: #333;
+}
+
+.news-categories nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.news-categories nav ul li:first-child {
+  text-transform: uppercase;
+}
+
+.special-link {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+#special-list > :nth-child(2) {
+  padding-left: 25px;
+  background: url(icons/delivery.png) left/20px no-repeat;
+}
+
+#special-list > :nth-child(3) {
+  padding-left: 25px;
+  background: url(icons/nyt-logo.gif) left/20px no-repeat;
+}
+
+#special-list > :nth-child(4) {
+  padding-left: 25px;
+  background: url(icons/crossword.png) left/20px no-repeat;
+}
+
+#special-list > :nth-child(5) {
+  padding-left: 25px;
+  background: url(icons/cooking.png) left/20px no-repeat;
+}
+
+#special-list :not(.special-link) {
+  font-size: 10px;
+}
+
+#special-list li h2:first-of-type {
+  font-size: 14px;
+}
+
+#special-list {
+  border-left: 1px solid lightgray;
+  padding-left: 15px;
+}
+
+.news-categories hr:first-of-type {
+  border-top: 3px double lightgray;
+}
+
+.news-categories hr:last-of-type {
+  border-top: 1px solid lightgray;
+}
+
+/* Footer Styles */
+
+footer {
+  width: 70%;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+/* Fixed banner */
+
+.fixed-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  background: #fff;
+  text-align: center;
+  z-index: 2;
+  border-top: 1px solid #000;
+  line-height: 55px;
+}
+
+.fixed-banner .banner-uparrow {
+  cursor: pointer;
+  margin: 10px 25px 0 0;
+  float: right;
+}
